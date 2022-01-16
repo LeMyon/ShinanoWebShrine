@@ -1,0 +1,431 @@
+html {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: 'Orbitron', sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  color: whitesmoke;
+}
+
+main #home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/shinano5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main #gallery {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-rows: 10vh auto;
+      grid-template-rows: 10vh auto;
+  background-image: url(img/bg/Sakura_empire_base.png);
+  background-size: cover;
+}
+
+main #gallery .thumbnail-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 70vh;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+main #gallery .thumbnail-box .thumbnail-wrapper {
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+  overflow-y: auto;
+  text-align: center;
+}
+
+main #gallery .thumbnail-box .thumbnail-wrapper .thumbnail {
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+  border-radius: 15px;
+  border: 2px solid whitesmoke;
+}
+
+main #gallery .thumbnail-box .thumbnail-wrapper .thumbnail:hover {
+  cursor: pointer;
+  border: 2px solid #2f08dd;
+}
+
+main #quotes {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30vw 30vw 30vw;
+      grid-template-columns: 30vw 30vw 30vw;
+  -ms-grid-rows: (20vh)[4];
+      grid-template-rows: repeat(4, 20vh);
+  gap: 15px;
+  background-image: url(img/bg/Sakura_empire_base.png);
+}
+
+main #quotes #note-box {
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+  -ms-grid-column: 3;
+  grid-column: 3 /3;
+}
+
+main #quotes #note-box .q-notes {
+  margin-top: 10vh;
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+  color: black;
+}
+
+main #quotes .emote {
+  width: 20vw;
+  border-radius: 200px;
+  border: 3px solid black;
+}
+
+main #quotes #quote-box {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3/5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 /4;
+  z-index: 2;
+}
+
+main #quotes #quote-box .quote-bubble {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+  -ms-grid-rows: 2;
+      grid-template-rows: 2;
+  width: 55%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: 1.4em;
+  background-color: whitesmoke;
+  color: black;
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+}
+
+main #quotes #quote-box .quote-bubble .jp {
+  margin: 20px;
+  -ms-grid-row: 1;
+  grid-row: 1/1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 9;
+  grid-column: 1/10;
+}
+
+main #quotes #quote-box .quote-bubble .en {
+  margin: 20px;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 9;
+  grid-column: 1/10;
+}
+
+main #quotes #quote-box .quote-bubble .close-bubble {
+  width: 35px;
+  height: 35px;
+  border-radius: 200px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-grid-column: 11;
+  grid-column: 11/11;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+main #quotes #quote-box .quote-bubble .close-bubble:hover {
+  color: red;
+  cursor: pointer;
+}
+
+main #quotes #quote-wrapper {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
+  width: 25vw;
+  height: auto;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  overflow-y: auto;
+}
+
+main #quotes #quote-wrapper .q-category {
+  margin: 10px;
+  color: black;
+}
+
+main #quotes #quote-wrapper .q-category:hover {
+  cursor: pointer;
+  color: #be48db;
+}
+
+main #history {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-image: url(img/bg/shinanobg1.jpg);
+  background-size: cover;
+}
+
+main #history #history-wrapper {
+  width: 50vw;
+  height: 100vh;
+}
+
+main #history #history-wrapper #history-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+}
+
+main #history #history-wrapper #history-box .desc {
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+}
+
+main #history #history-wrapper #history-box .desc p {
+  padding: 10px;
+}
+
+main #history #history-wrapper #history-box .history-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+}
+
+main #history #history-wrapper #nav-history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 5px;
+}
+
+main #history #history-wrapper #nav-history * {
+  width: 20vw;
+  height: 50px;
+  border: 1px solid whitesmoke;
+  font-size: 1.2em;
+  color: black;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#616161), to(#ececec));
+  background-image: linear-gradient(#616161, #ececec);
+  padding: 10px;
+}
+
+main #history #history-wrapper #nav-history *:hover {
+  color: whitesmoke;
+  cursor: pointer;
+  border: 2px solid whitesmoke;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  bottom: 1vh;
+}
+
+footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#616161), to(#ececec));
+  background-image: linear-gradient(#616161, #ececec);
+  width: 100%;
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+}
+
+footer nav a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2em;
+  color: black;
+}
+
+footer nav a:hover {
+  color: whitesmoke;
+}
+
+footer .footmark {
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #d6d6d6;
+  float: right;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+footer .footmark p {
+  margin-right: 2vw;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  z-index: 1;
+  display: none;
+}
+
+.overlay .exit {
+  position: fixed;
+  right: 50px;
+  top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.overlay .exit:hover {
+  color: #dadada;
+  cursor: pointer;
+}
+
+.overlay .overlay-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100vw;
+  height: 50vh;
+  margin-top: 15vh;
+}
+
+.overlay .overlay-content img {
+  -webkit-animation: slideUpIn 500ms linear forwards;
+          animation: slideUpIn 500ms linear forwards;
+  max-width: 100%;
+  max-height: 80%;
+  border: 1px solid whitesmoke;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.overlay .overlay-content img:hover {
+  cursor: pointer;
+}
+
+@-webkit-keyframes slideUpIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideUpIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 0px 25px 25px 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9e9e9e;
+  border-radius: 0px 25px 25px 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #be48db;
+}
+/*# sourceMappingURL=style.css.map */

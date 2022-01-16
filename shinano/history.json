@@ -1,0 +1,30 @@
+{
+
+    "shinanoHistory": 
+    [
+        {
+            "img": "img/history/1.png",
+            "part": "Construction",
+            "desc": "<p>Shinano (信濃), named after the old province of Shinano, was an aircraft carrier built by the Imperial Japanese Navy (IJN) during World War II. </p><p> Initially laid down as the third of the Yamato-class battleships, Shinano's partially complete hull was converted to an aircraft carrier in 1942, midway through construction.</p><p> Over the next two years, the ship was heavily modified and she became the largest aircraft carrier built up to that time.</p>"
+        },
+
+        {
+            "img": "img/history/2.png",
+            "part": "Refit",
+            "desc": "<p>Partially completed in November 1944, Shinano was sent from the Yokosuka Naval Arsenal to Kure Naval Base to complete fitting out and transfer a load of 50 Yokosuka MXY7 Ohka rocket-propelled kamikaze flying bombs. </p>"
+        },
+
+        {
+            "img": "img/history/3.png",
+            "part":"Defeat",
+            "desc":"<p> En route to Kure, she was sunk on 19 November 1944, 10 days after commissioning, by four torpedoes from the American submarine USS Archer-Fish.</p> <p>The ship carried an inexperienced crew, had serious design and construction flaws, and was not ready for combat.</p>"
+        },
+        
+        {
+            "img": "img/history/4.png",
+            "part":"Aftermath",
+            "desc": "<p>Over a thousand of her crew and passengers were rescued, but 1,435 sailors and civilians died, including her captain.</p><p> Shinano remains the largest warship ever sunk by a submarine.</p>"
+        }
+    ]
+
+}

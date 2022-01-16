@@ -1,0 +1,400 @@
+html {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: whitesmoke;
+}
+
+main {
+
+
+    #home {
+        height: 100vh;
+        width: 100%;
+        background-image: url(img/shinano5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #gallery {
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 10vh auto;
+        background-image: url(img/bg/Sakura_empire_base.png);
+        background-size: cover;
+
+        .thumbnail-box {
+            display: flex;
+            width: 50vw;
+            height: 70vh;
+            border: 2px solid whitesmoke;
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+
+
+            .thumbnail-wrapper {
+                animation: slideUpIn 500ms linear forwards;
+                overflow-y: auto; //vertical scroll
+
+                text-align: center;
+
+                .thumbnail {
+
+                    width: 150px;
+                    height: 150px;
+                    margin: 8px;
+                    border-radius: 15px;
+                    border: 2px solid whitesmoke;
+
+
+
+                    &:hover {
+                        cursor: pointer;
+                        border: 2px solid rgb(47, 8, 221);
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    #quotes {
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-template-rows: repeat(4, 20vh);
+        gap: 15px;
+        background-image: url(img/bg/Sakura_empire_base.png);
+
+        #note-box {
+            grid-row: 2/2;
+            grid-column: 3 /3;
+
+
+            .q-notes {
+                margin-top: 10vh;
+                animation: slideUpIn 500ms linear forwards;
+                // border: 1px solid white;
+                color: black;
+            }
+        }
+
+        .emote {
+            width: 20vw;
+            border-radius: 200px;
+            border: 3px solid black;
+        }
+
+        #quote-box {
+            grid-row: 3/5;
+            grid-column: 2 /4;
+            z-index: 2;
+
+            .quote-bubble {
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                grid-template-columns: repeat(10, 1fr);
+                grid-template-rows: 2;
+                width: 55%;
+                height: auto;
+                border: 2px solid white;
+                border-radius: 25px;
+                font-size: 1.4em;
+                background-color: whitesmoke;
+                color: black;
+                animation: slideUpIn 500ms linear forwards;
+
+
+                .jp {
+                    margin: 20px;
+                    grid-row: 1/1;
+                    grid-column: 1/10;
+                }
+
+                .en {
+                    margin: 20px;
+                    grid-row: 2/2;
+                    grid-column: 1/10;
+                }
+
+                .close-bubble {
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 200px;
+                    display: grid;
+                    justify-content: center;
+                    align-content: center;
+
+                    grid-column: 11/11;
+                    margin-right: 20px;
+                    margin-top: 10px;
+                    font-weight: bold;
+                    font-size: 1.5em;
+
+                    &:hover {
+                        color: red;
+                        cursor: pointer;
+                    }
+
+                    // .close-x {}
+
+
+                }
+
+            }
+        }
+
+
+        #quote-wrapper {
+            grid-row: 1/5;
+            width: 25vw;
+            height: auto;
+            border: 2px solid whitesmoke;
+            border-radius: 15px;
+            overflow-y: auto;
+
+
+            .q-category {
+                margin: 10px;
+                color: black;
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(190, 72, 219);
+                }
+            }
+        }
+    }
+
+    #history {
+        height: 100vh;
+        width: 100%;
+        // background: rgb(2, 0, 36);
+        // background: linear-gradient(180deg, rgba(2, 0, 36, 1) 2%, rgba(255, 245, 88, 0.9724264705882353) 8%, rgba(255, 136, 0, 0.76234243697479) 100%);
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        background-image: url(img/bg/shinanobg1.jpg);
+        background-size: cover;
+
+
+        #history-wrapper {
+            // margin-top: 15vh;
+            width: 50vw;
+            height: 100vh;
+            // border: 1px solid white;
+
+
+            #history-box {
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+                margin-top: 10px;
+                background-color: rgba(0, 0, 0, 0.7);
+                border-radius: 15px;
+                animation: slideUpIn 500ms linear forwards;
+
+                .desc {
+                    animation: slideUpIn 500ms linear forwards;
+
+                    p {
+                        padding: 10px;
+                    }
+                }
+
+
+
+                .history-img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    animation: slideUpIn 500ms linear forwards;
+
+                }
+
+            }
+
+            #nav-history {
+                display: flex;
+                justify-content: space-between;
+                gap: 5px;
+            }
+
+            #nav-history * {
+                //childs of nav history
+                width: 20vw;
+                height: 50px;
+                border: 1px solid whitesmoke;
+                font-size: 1.2em;
+                color: black;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                background-image: linear-gradient(#616161, #ececec);
+                padding: 10px;
+
+                &:hover {
+                    color: whitesmoke;
+                    cursor: pointer;
+                    border: 2px solid whitesmoke;
+                }
+            }
+        }
+    }
+
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 1vh;
+
+    nav {
+        display: flex;
+        justify-content: center;
+        // background-color: rgb(151, 151, 151);
+        background-image: linear-gradient(#616161, #ececec);
+        width: 100%;
+        border-top: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            font-size: 1.2em;
+            color: black;
+
+
+            &:hover {
+                color: whitesmoke;
+            }
+        }
+    }
+
+    .footmark {
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px #d6d6d6;
+        float: right;
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+        p {
+            margin-right: 2vw;
+        }
+
+    }
+}
+
+
+
+//overlay
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    z-index: 1;
+    display: none;
+
+    .exit {
+        position: fixed;
+        right: 50px;
+        top: 10px;
+        font-size: 1.5em;
+        font-weight: bold;
+
+        &:hover {
+            color: rgb(218, 218, 218);
+            cursor: pointer;
+        }
+    }
+
+
+    .overlay-content {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        width: 100vw;
+        height: 50vh;
+        // margin-left: 15vw;
+        margin-top: 15vh;
+
+        img {
+            animation: slideUpIn 500ms linear forwards;
+            // width: 50vw;
+            // height: 50vh;
+            max-width: 100%;
+            max-height: 80%;
+            border: 1px solid whitesmoke;
+            background-color: black;
+            border-radius: 25px;
+
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+
+}
+
+@keyframes slideUpIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+//custom scrollbar
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0px 25px 25px 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(158, 158, 158);
+    border-radius: 0px 25px 25px 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(190, 72, 219);
+
+}

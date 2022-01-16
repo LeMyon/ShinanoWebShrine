@@ -1,0 +1,193 @@
+{
+"shinanoQuotes":
+[
+
+    {
+        "jp_quote": "重桜に属す、空母信濃と申す。かの大戦では大和型の姉妹艦として戦陣にて散ることなく、斯様な結末に――嗚呼、諸行因果、妾には、それを…知ること叶わず――汝に導かれし道が異なる結果を生み出さんことを……",
+        "en_quote": "I am the aircraft carrier Shinano, who belongs to the Sakura Empire. As a Yamato class ship during the war, she did not fall in the line of battle, but it ended up like this ―― Alas, of all manners of causes and effects, with you, you could not have known that the path you have taken could produce a different result.",
+        "category": "Self Introduction",
+        "notes": "Shinano never completed her refit into a very large 'Support Carrier'. She was ambushed and sunk by the US submarine Archerfish during her first and only voyage to Kure Naval Base."
+    },
+
+    {
+        "jp_quote": "この感触…夢ではなく現し世……汝（そなた）が妾（わたし）を呼び覚ましたのか？嗚呼、定めとは斯様にも…大和型3番艦の信濃と申す。正しき道へと導こう…",
+        "en_quote": "This feeling... it's not a dream, but reality ...... Have you awakened? Alas, my fate is so, my name is Shinano, the third Yamato-class ship. Allow me to guide you towards the correct path.",
+        "category": "Acquisition",
+        "notes": "Shinano's wreck remains undiscovered to this day..."
+    },
+    {
+        "jp_quote": "Zzzz……よく戻られた。長く、永く、ここで待って居た……",
+        "en_quote": "Zzzz..... I'm glad you're back. For a long, long time, I have been waiting for you here......",
+        "category": "Login",
+        "notes": ""
+    },
+    {
+        "jp_quote": "Zzzzz……定めを壊すほど真に強きこと……鏡花水月、幻の如く……ふぅ……",
+        "en_quote": "Zzzz...... true strength truly is strong enough to break the rules...... flowers in a mirror and the moon in a mirror room, like a vision......fuu......",
+        "category": "Details",
+        "notes": "Due to several design flaws, inherent in every Yamato-Class ship, Shinano's effectiveness and impact as a 'Heavy Armor Support Carrier' were rather doubtful."
+    },
+    {
+        "jp_quote": "如何に美しい花も、散りゆくが定め…美しく咲き誇れば、例えそれが一瞬でも尊く――",
+        "en_quote": "Even the most beautiful flower has to one day fall, but if it blooms beautifully, even for one moment, it is precious.",
+        "category": "Secretary (Idle) 1",
+        "notes": ""
+    },
+    {
+        "jp_quote": "嗚呼、お労しや…妾の胸でゆるりと癒やしを……ええ、駆逐艦の子たちと同じく――",
+        "en_quote": "Ah, goodness gracious, please let loose and heal in my bosom...... yes, just like the small destroyers――",
+        "category": "Secretary (Idle) 2",
+        "notes": "Shinano was escorted by Isokaze, Yukikaze, and Hamakaze during her first and last voyage to Kure Naval Base."
+    },
+    {
+        "jp_quote": "見聞を広めるのはよろしゅう…此の母港でなら、良ければ、妾が……",
+        "en_quote": "You may want to spread the word... here in the home port, if you like, I could......",
+        "category": "Secretary (Idle) 3",
+        "notes": ""
+    },
+    {
+        "jp_quote": "汝に任された報告書はここに……誤りが多い、と…？あぅ、期日を繰り上げすぎるのも、善からずか……",
+        "en_quote": "The report entrusted to you is here ... with many errors, and ...? Well, I suppose it wouldn't do any good to move the due date forward......",
+        "category": "Secretary (Idle) 4",
+        "notes": "Some of Shinano's important damage control equipment couldn't be installed in time due to her hastened up departure on November 28 in 1944."
+    },
+    {
+        "jp_quote": "ジグザグ……Zzzzz…あっ…危うくぶつかりそうだった？…妾の不注意に、お詫び申す…",
+        "en_quote": "Zigzag...Zzzzzzz...oh...did I almost hit you? ... I apologize for my carelessness.",
+        "category": "Secretary (Idle) 5",
+        "notes": ""
+    },
+    {
+        "jp_quote": "Zzzzzz……あ…妾がまた眠っていたと……お詫びを……",
+        "en_quote": "Zzzzzz...... ah... it seems as if i had fallen asleep yet again...... my apologies......",
+        "category": "Secretary (Touch)",
+        "notes": ""
+    },
+    {
+        "jp_quote": "ここでは……汝…うぅ……",
+        "en_quote": "Here ...... thou ... uh ......",
+        "category": "Secretary (Special Touch)",
+        "notes": ""
+    },
+    {
+        "jp_quote": "嗚呼……妾、耳は弱く……",
+        "en_quote": "Ah.... my, my ears are a weak spot.......",
+        "category": "Secretary (Headpat)",
+        "notes": ""
+    },
+    {
+        "jp_quote": "お勤め…期日までには果たせようか…",
+        "en_quote": "The Paperwork...I don't know if they can be completed in time...",
+        "category": "Task",
+        "notes": "A reference to her rather troublesome refit into a Support Carrier which took over 4 years and couldn't be finished in the end due to hasty decisions from the Naval General Staff."
+    },
+    {
+        "jp_quote": "汝がいれば、何事も出来よう…",
+        "en_quote": "With you by my side, nothing is impossible...",
+        "category": "Task Complete",
+        "notes": ""
+    },
+    {
+        "jp_quote": "遠き思いを載せる文、軽んずべからず……",
+        "en_quote": "A letter of distant thoughts, they are not to be taken lightheartedly......",
+        "category": "Mail",
+        "notes": ""
+    },
+    {
+        "jp_quote": "Zzzz……無事に帰還したと観た…嗚呼、よきかな……",
+        "en_quote": "Zzzz...... I see you have made it home safely, good......",
+        "category": "Return from a mission",
+        "notes": ""
+    },
+    {
+        "jp_quote": "Zzzzz…委託組の子の出迎えを…どうか忘るべからず……",
+        "en_quote": "Zzzzz... Please don't forget about picking up the commissioned girls......",
+        "category": "Commission",
+        "notes": ""
+    },
+    {
+        "jp_quote": "徒労な終わり、なきこと……",
+        "en_quote": "A fruitless end, there shall be no more......",
+        "category": "Strengthening",
+        "notes": "Could be a reference to her very short career of only 10 days in total."
+    },
+    {
+        "jp_quote": "定めなれど、精魂果つるまでお務めを――",
+        "en_quote": "Although it is decided, I will work until my being is satisfied.",
+        "category": "Starting Mission",
+        "notes": ""
+    },
+    {
+        "jp_quote": "妾の力は、これ程……？",
+        "en_quote": "My power, is this......?",
+        "category": "MVP",
+        "notes": ""
+    },
+    {
+        "jp_quote": "嗚呼、妾が皆の期待に背いたばかりに……",
+        "en_quote": "Alas, I was not able to fulfill everyone's expectations......",
+        "category": "Defeat",
+        "notes": "Poor damage control and insufficient torpedo protection doomed Shinano. She sunk 7 hours after getting hit by 4 torpedos from the US submarine Archerfish."
+    },
+    {
+        "jp_quote": "定めが…観える――",
+        "en_quote": "Your fate... I can see it――",
+        "category": "Skill Activation",
+        "notes": ""
+    },
+    {
+        "jp_quote": "……退くことはあるまい…",
+        "en_quote": "...... I refuse to retreat...",
+        "category": "Low HP",
+        "notes": ""
+    },
+    {
+        "jp_quote": "汝の側では、妾とて光観ること叶わず……",
+        "en_quote": "By your side I am unable to see the light......",
+        "category": "Affinity (Disappointed)",
+        "notes": ""
+    },
+    {
+        "jp_quote": "期待と注目を受けても、力を振るうこと叶わず……嘲笑われるのは妾の定めゆえの事……",
+        "en_quote": "Even if I receive the expectations and attention of everyone, but being that I can not show my power to an equivalent ... I am ridiculed by fate ......",
+        "category": "Affinity (Stranger)",
+        "notes": "After the catastrophic loss of Japan's carrier divisions during the Battle of Midway, the Imperial Japanese Navy expected Shinano to fill in as a 'Heavy Armor Support Carrier' that could support other CVs."
+    },
+    {
+        "jp_quote": "観える未来を変えられぬ不幸と、未来を知り得ぬ不幸……いずれがより良き不幸であろうか",
+        "en_quote": "The misfortune of not being able to change the visible future or the misfortune of not being able to know what the future holds...which is the better misfortunate path?",
+        "category": "Affinity (Friendly)",
+        "notes": ""
+    },
+    {
+        "jp_quote": "妾が観た夢……いと忘れまほしき悲しさ、永遠に溺れまほしきよろこび、嗚呼…現実も夢幻の如く……汝が果たして、まことなりや？",
+        "en_quote": "The dream that I saw ...... the sadness that I forgot, the joy that I was drowned in for eternity, Aha ... reality is like a dream ... are you, indeed, real?",
+        "category": "Affinity (Like)",
+        "notes": ""
+    },
+    {
+        "jp_quote": "定めを変えられぬと嘆いた妾は……今や怖れず、未来も、何もかも……こ、ここで、汝と、ともにいれば――",
+        "en_quote": "And I, who lamented that I could not change my ways ...... now would not be afraid, not of the future, not of anything ...... if I were here with thee――",
+        "category": "Affinity (Love)",
+        "notes": ""
+    },
+    {
+        "jp_quote": "この母港で出会った汝との思い出は…初々しくも、嬉しく……嗚呼、これで――定めを、悲しみを、喜びを、全てを…妾を大切にする汝とともに――",
+        "en_quote": "The memories of our fateful meeting with thee in this home port, are as sweet as the first meeting...... Aha, now ―― the provisions, the sorrows, the joys, all of it - with thee, who cherishes I――",
+        "category": "Pledge",
+        "notes": ""
+    },
+    {
+        "jp_quote": "",
+        "en_quote": "",
+        "category": "",
+        "notes": ""
+    }
+
+]
+
+
+
+
+
+}
